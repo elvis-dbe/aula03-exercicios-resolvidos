@@ -31,4 +31,4 @@ const obterCarro = (req, res) => {
 module.exports = {
     filtrarCarros,
     obterCarro
-}
+};

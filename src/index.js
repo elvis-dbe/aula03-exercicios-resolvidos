@@ -1,7 +1,6 @@
 const express = require('express');
 const { filtrarCarros, obterCarro } = require('./controladores/carros');
 const { validarSenha } = require('./intermediarios');
-
 const app = express();
 const PORTA = 3000;
 

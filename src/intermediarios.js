@@ -4,7 +4,6 @@ const validarSenha = (req, res, next) => {
     if (!senha) {
         return res.send('A senha não foi informada');
     }
-
     if (senha !== 'carros123') {
         return res.send('A senha está incorreta');
     }
@@ -14,4 +13,4 @@ const validarSenha = (req, res, next) => {
 
 module.exports = {
     validarSenha
-}
+};
